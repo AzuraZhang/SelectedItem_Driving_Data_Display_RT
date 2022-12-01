@@ -1,0 +1,15 @@
+Name: Model
+Type: FolderType
+Children:
+- File: PumpType/PumpType.yaml
+- File: PumpInstances/PumpInstances.yaml
+- Name: varWaterPumpSelection
+  Id: g=08a2ac9d6a30f304b37e271978dcf2fb
+  Type: NodePointer
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
